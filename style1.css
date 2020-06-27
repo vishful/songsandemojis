@@ -1,0 +1,280 @@
+body{
+    background-image: url('https://data.whicdn.com/images/300652913/original.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 75%;
+    right: 48%;
+    width: 80px;
+    height: 60px;
+    margin: auto;
+    background-color: powderblue;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: black;
+}
+
+
+#myPicture {
+    /*width: 340px;
+    height: 200px;*/
+    width: 420px;
+    height: 310px;
+    margin-top: -180px;
+    margin-left: 570px;
+    position: absolute;
+    top: 45%;
+    left: -1.5%;
+}
+
+
+/*#myAlbum {
+    /*width: 340px;
+    height: 200px;
+    width: 100px;
+    height: 80px;
+    margin-top: -200px;
+    margin-left: 580px;
+    position: absolute;
+    top: 45%;
+    left: -1.5%;
+}*/
+
+
+#gameScore {
+    position: absolute;
+    top: 65%;
+    left: 81.5%;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: darkcyan;
+}
+
+.button2 {
+    position: absolute;
+    top: 65%;
+    right: 38%;
+    width: 90px;
+    height: 40px;
+    margin: auto;
+    background-color: plum;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    border-color: black;
+}
+
+#inputText {
+
+    position: absolute;
+    top: 65%;
+    right: 45%;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+
+}
+
+
+.scoreStyle {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    margin: auto;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:  black;
+}
+
+.aesthetic1 {
+
+    width: 200px;
+    height: 200px;
+    border-color: darkcyan;
+    border-style: double;
+    border-radius: 10%;
+    position: absolute;
+    left: 78%;
+    top: 50%;
+
+}
+
+.aesthetic2 {
+
+    width: 250px;
+    height: 250px;
+    border-color: peachpuff;
+    border-style: double;
+    border-radius: 10%;
+    position: absolute;
+    top: -30px;
+    left: -28px;
+}
+
+.aesthetic3 {
+
+    width: 300px;
+    height: 300px;
+    border-color: darkcyan;
+    border-style: double;
+    border-radius: 10%;
+    position: absolute;
+    top: -30px;
+    left: -28px;
+}
+
+.card{
+
+    width: 500px;
+    height: 600px;
+    border-color: black;
+    background-color:wheat;
+    opacity: 0.8;
+    border-radius: 5%;
+    position: absolute;
+    left: 500px;
+    z-index: -900;
+    top: 70px;
+
+}
+
+
+.trackBox {
+    position: absolute;
+    top: 50%;
+    right: 80%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:  black;
+}
+
+.track1 {
+
+    width: 200px;
+    height: 200px;
+    border-color: darkcyan;
+    border-style: double;
+    border-radius: 10%;
+    position: absolute;
+    right: 78%;
+    top: 49%;
+
+}
+
+.track2 {
+
+    width: 250px;
+    height: 250px;
+    border-color: peachpuff;
+    border-style: double;
+    border-radius: 10%;
+    position: absolute;
+    top: -30px;
+    left: -28px;
+}
+
+.track3 {
+
+    width: 300px;
+    height: 300px;
+    border-color: darkcyan;
+    border-style: double;
+    border-radius: 10%;
+    position: absolute;
+    top: -30px;
+    left: -28px;
+}
+
+#gameAttempts {
+    position: absolute;
+    top: 63%;
+    right: 81.5%;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: darkcyan;
+}
+
+
+#newBox {
+
+    width: 300px;
+    height: 40px;
+    background-image: url('https://thumbs.gfycat.com/ColorfulFrayedGrasshopper-size_restricted.gif');
+    background-color: plum;
+    border-color: black;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    bottom: 500%;
+    margin-left: 575px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: plum;
+}
+
+
+.clock {
+width: 180px;
+height: 40px;
+background-color: peachpuff;
+border-radius: 20px;
+padding: 1px;
+padding-left: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 18px;
+border-color:solid black;
+}
+
+
+
+/*#titles{
+
+    width: 250px;
+    height: 20px;
+    border-color: black;
+    background-color:white;
+    opacity: 1;
+    border-radius: 5%;
+    position: absolute;
+    left: 640px;
+    z-index: -900;
+    top: 112px;
+
+}
+#deets {
+    width: 300x;
+    height: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    margin-top: 45px;
+    text-align: center;
+    color: black;
+    border-color: black;
+    border-style: double;
+}*/

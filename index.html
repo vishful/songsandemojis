@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>♡ Guess The Song ♡</title>
+  <script type="text/javascript" src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="countdown(); disp(); getVal(); picDispNow()">
+
+<img src="" id="myPicture">
+<img src="" id="myAlbum">
+<div class="wrapper">
+  <button class="button" onClick=" decide(); disp(); getVal(); picDisp()">Go Again</button>
+</div>
+
+<form id="myForm">
+<input type="text" id="inputText" />
+</form>
+<button class="button2" onClick=" decide(); disp(); getVal(); picDisp()">Submit</button>
+
+<div class="card">
+
+  <div id="deets"><p></p></div>
+
+</div>
+
+
+<div class="scoreStyle">SCORE</div>
+<div class="aesthetic1">
+<div class="aesthetic2">
+<div class="aesthetic3">
+</div>
+</div>
+</div>
+
+<div id="gameScore"></div>
+
+<div class="trackBox">ATTEMPTS</div>
+<div class="track1">
+<div class="track2">
+<div class="track3">
+</div>
+</div>
+</div>
+
+<div id="gameAttempts"></div>
+
+<audio id="xyz" src="audio/error.mp3" preload="auto"></audio>
+<audio id="abc" src="audio/ding.mp3" preload="auto"></audio>
+<audio id="lmn" src="" preload="auto"></audio>
+
+<div id="newBox">GUESS THE SONG</div>
+
+<div class="clock"> 
+    Time Left: 
+    <input id="minutes" type="text" style="width: 17px; 
+        border: none; font-size: 16px; 
+        font-weight: bold; color: black;"><font size="5"> : 
+                    </font> 
+    <input id="seconds" type="text" style="width: 20px; 
+                    border: none; font-size: 16px; 
+                    font-weight: bold; color: black;"> 
+</div> 
+</body>
+</html>
